@@ -1,0 +1,85 @@
+
+/* BASIC STYLES
+============================ */
+
+h1 {
+  color:       #1A237E; /* dark blue */
+  font-family: Arial, sans-serif;
+  text-align:  center;
+}
+
+body {
+  color:       #212121;
+  font-family: Arial, sans-serif;
+  font-size:   17px;
+  background:  #FFFDE7;
+  background:  #E3F2FD;
+}
+
+p {
+  margin: 17px;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+/* LINK BETWEEN TWO PAGES
+============================ */
+.page-link {
+  position: absolute;
+  top: 5px;
+  left:5px;
+}
+
+/* INFO BOXES
+============================ */
+
+.align-ctr {
+  margin:           0px auto;  /* center them */
+  border:           solid;
+  min-width:        500px;
+  max-width:        700px;
+  border-radius:    5px;
+  padding:          0px 15px 0px 15px;
+  background:       linear-gradient(#FAFAFA,#E0E0E0);
+  border-radius:    30px;
+}
+
+/* MENU
+============================ */
+
+/* used in div to indicate p's are menu selections */
+#menu {
+  text-align:    center;  /* centers the group of menu buttons */
+  margin-bottom: 20px;
+}
+
+/* format each menu selection */
+#menu p {
+  display:      inline-block;  /* get the buttons to flow across screen */
+  width:        100px;
+  margin:       5px;
+  padding:      12px;
+  border-radius:10px;
+  border:       2px;
+  border-color: black;
+  border-style: solid;
+}
+#menu p:hover {
+  background-color: #B3E5FC;  /* md blue */
+}
+#menu p:active {
+  background-color: #B3E5FC;  /* md blue */
+  box-shadow:       none;
+  box-shadow:       2px 2px 2px #777777 inset;
+}
+.menu-unselected {
+  background-color: #EBF5FB;  /* lt blue */
+  font-weight:      normal;
+  box-shadow:       5px 5px 5px #777777;
+}
+.menu-selected {
+  background-color: #B3E5FC;  /* md blue */
+  box-shadow:       2px 2px 2px #777777 inset;
+}
