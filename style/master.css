@@ -20,6 +20,10 @@ p {
   margin: 17px;
 }
 
+#img-hobbies {
+  margin-top: 5px;  /* so hobbies image vertically centers (otherwise it sits on the text baseline so spc for descenders appears below and makes image seem too high) */
+}
+
 li {
   margin-bottom: 12px;
 }
